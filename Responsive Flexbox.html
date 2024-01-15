@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left {
+  background-color: #57dcee;
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  background-color: rgb(80, 158, 236);
+  padding: 10px;
+  flex: 50%;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="flex-container">
+  <div class="flex-item-left">1....The "flex-direction: row;" stacks the flex items horizontally (from left to right).....Sultan Ahmed<img src="001.png" class="img-thumbnail" alt="3" width="304" height="236"></div>
+  <div class="flex-item-right">2...The "flex-direction: row;" stacks the flex items horizontally (from left to right).....Sultan Ahmed<img src="002.png" class="img-thumbnail" alt="3" width="304" height="236"></div>
+</div>
+
+
+<div class="flex-container">
+    <div class="flex-item-left">1...The "flex-direction: row;" stacks the flex items horizontally (from left to right)......Sultan Ahmed<img src="004.png" class="img-thumbnail" alt="3" width="304" height="236"></div>
+    <div class="flex-item-right">2....The "flex-direction: row;" stacks the flex items horizontally (from left to right).....Sultan Ahmed<img src="003.png" class="img-thumbnail" alt="3" width="304" height="236"></div>
+  </div>
+  
+
+
+  <div class="flex-container">
+    <div class="flex-item-left">1...The "flex-direction: row;" stacks the flex items horizontally (from left to right)......Sultan Ahmed<img src="001.png" class="img-thumbnail" alt="3" width="304" height="236"></div>
+    <div class="flex-item-right">2....The "flex-direction: row;" stacks the flex items horizontally (from left to right).....Sultan Ahmed<img src="005.png" class="img-thumbnail" alt="3" width="304" height="236"></div>
+  </div>
+
+
+</body>
+</html>
+
+
